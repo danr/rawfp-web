@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>RAWFP - $title$</title>
+        <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
+    </head>
+    <body>
+        <div class="navbar navbar-default navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="/">RAWFP</a>
+            </div>
+            <div class="container">
+              <ul class="nav navbar-nav">
+                <li><a href="/background.html">Background</a></li>
+                <li><a href="/dsl.html">DSLs</a></li>
+                <li><a href="/telecom.html">Telecom</a></li>
+                <li><a href="/automotive.html">Automotive</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="/grants.html">Grants</a></li>
+                <li><a href="/publications.html">Publications</a></li>
+                <li><a href="/people.html">People</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          $if(startpage)$
+            <div class="jumbotron" style="text-align: center">
+              $body$
+            </div>
+          $else$
+            <div class="page-header">
+              <h1>$title$</h1>
+            </div>
+            $body$
+          $endif$
+        </div>
+    </body>
+</html>
+
