@@ -9,6 +9,13 @@ main = hakyll $ do
         route (constRoute "css/bootstrap.css")
         compile compressCssCompiler
 
+    match "css/*.sass" $ do
+        route $ setExtension "css"
+        compile $
+            getResourceString >>=
+            withItemBody (unixFilter "sass" ["-s"]) >>=
+            return . fmap compressCss
+
     match "*.md" $ do
         route $ setExtension "html"
         compile $ pandocCompiler

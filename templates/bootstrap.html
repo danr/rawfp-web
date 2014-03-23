@@ -5,15 +5,17 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <title>RAWFP - $title$</title>
+        <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Open+Sans:400,700">
         <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="/css/rawfp.css" />
     </head>
-    <body>
+    <body class="$title$">
         <div class="navbar navbar-default navbar-static-top" role="navigation">
           <div class="container">
             <div class="navbar-header">
               <a class="navbar-brand" href="/">RAWFP</a>
             </div>
-            <div class="container">
+            <div class="navbar-collapse">
               <ul class="nav navbar-nav">
                 <li><a href="/background.html">Background</a></li>
                 <li><a href="/dsl.html">DSLs</a></li>
@@ -30,7 +32,7 @@
         </div>
         <div class="container">
           $if(startpage)$
-            <div class="jumbotron" style="text-align: center">
+            <div class="jumbotron">
               $body$
             </div>
           $else$
