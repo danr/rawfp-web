@@ -1,4 +1,8 @@
 language: haskell
 
+before_install:
+  # Constrain the exceptions package until hakyll is updated
+  - cabal install --only-dep --enable-tests --constraint="exceptions=0.3.3.1"
+
 script:
   - cabal run build
