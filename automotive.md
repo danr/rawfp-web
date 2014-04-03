@@ -50,7 +50,7 @@ detrimental to agile development principles, simply because testing of a single
 subsystem requires so much of the final system implementation to be in place.
 
 
-RAWFP seeks to address this problem space with a domain specific language that
+RAW FP seeks to address this problem space with a domain specific language that
 faithfully captures the structure and semantics of AUTOSAR on the level of
 software components (SWCs), including the functional behavior of runnables and
 their run-time environment (RTE). Programs in this DSEL can express systems

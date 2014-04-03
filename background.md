@@ -2,7 +2,7 @@
 title: Background
 ---
 
-The overall theme of the RAWFP project is improving productivity in software
+The overall theme of the RAW FP project is improving productivity in software
 development through domain-specific languages embedded in functional languages.
 Using a functional programming language as a host for domain-specific
 collections of types, primitives, combinators and control structures —
