@@ -9,11 +9,11 @@ main = hakyll $ do
         route (constRoute "css/bootstrap.css")
         compile compressCssCompiler
 
-    match "css/*.sass" $ do
+    match "css/*.hs" $ do
         route $ setExtension "css"
         compile $
             getResourceString >>=
-            withItemBody (unixFilter "sass" ["-s"]) >>=
+            withItemBody (unixFilter "runghc" []) >>=
             return . fmap compressCss
 
     match "*.md" $ do
