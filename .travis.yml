@@ -1,7 +1,6 @@
 language: haskell
 
 before_install:
-  - cabal install cabal-install
   - cabal install hakyll --constraint="resourcet>=1.1"
   - cabal install --only-dep
 
@@ -9,4 +8,4 @@ install:
   - cabal configure && cabal install
 
 script:
-  - cabal run build
+  - cabal configure && cabal run build
