@@ -2,9 +2,12 @@
 module Main where
 
 import Hakyll
+import GhcArgs (ghcArgs)
 
 main :: IO ()
 main = hakyll $ do
+    cargs <- preprocess ghcArgs
+
     match "bootstrap/css/bootstrap.min.css" $ do
         route (constRoute "css/bootstrap.css")
         compile compressCssCompiler
@@ -13,7 +16,7 @@ main = hakyll $ do
         route $ setExtension "css"
         compile $
             getResourceString >>=
-            withItemBody (unixFilter "runghc" []) >>=
+            withItemBody (unixFilter "runghc" cargs) >>=
             return . fmap compressCss
 
     match "*.md" $ do

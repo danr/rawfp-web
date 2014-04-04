@@ -17,10 +17,13 @@ cabal-version:       >=1.10
 
 executable rawfp-web
   main-is: Main.hs
-  -- other-modules:
+  other-modules:
+    GhcArgs
   -- other-extensions:
   build-depends:
     base >=4.5 && <5,
+    cabal-cargs,
+    process,
     clay,
     hakyll
   -- hs-source-dirs:
