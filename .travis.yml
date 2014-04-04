@@ -2,7 +2,7 @@ language: haskell
 
 before_install:
   - cabal install cabal-install
-  - cabal install hakyll --flags="-checkExternal"
+  - cabal install hakyll --constraint="resourcet>=1.1"
   - cabal install --only-dep
 
 install:
