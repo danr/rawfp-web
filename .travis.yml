@@ -5,7 +5,7 @@ before_install:
   - cabal install hakyll --flags="-checkExternal"
 
 install:
-  - cabal install
+  - cabal configure && cabal install
 
 script:
   - cabal run build
