@@ -1,7 +1,7 @@
 language: haskell
 
 before_install:
-  # Constrain the exceptions package until hakyll is updated
+  - cabal sandbox init
   - cabal install --only-dep --enable-tests
 
 script:
