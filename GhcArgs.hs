@@ -9,18 +9,20 @@ import Control.Applicative
 -- | Get the command line parameters that cabal would pass to GHC
 ghcArgs :: IO [String]
 ghcArgs = do
-    let args = Args { library    = True
-                    , executable = []
-                    , testSuite  = []
-                    , benchmark  = []
-                    , only       = []
-                    , format     = Ghc
-                    , sourceFile = Nothing
-                    , cabalFile  = Nothing
-                    , enable     = []
-                    , disable    = []
-                    , os         = Nothing
-                    , arch       = Nothing
-                    , relative   = False
+    let args = Args { library     = False
+                    , executable  = []
+                    , testSuite   = []
+                    , benchmark   = []
+                    , allSections = False
+                    , only        = []
+                    , ignore      = []
+                    , format      = Ghc
+                    , sourceFile  = Nothing
+                    , cabalFile   = Nothing
+                    , enable      = []
+                    , disable     = []
+                    , os          = Nothing
+                    , arch        = Nothing
+                    , relative    = False
                     }
     either error (F.format Ghc) <$> fromCmdArgs args
