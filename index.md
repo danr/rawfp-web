@@ -10,3 +10,4 @@ startpage: true
 Technology](http://www.chalmers.se), where cutting egde functional programming research such
 as [DSLs](dsl.html) solves practical real-world problems in our two tracks: the [telecom
 industry](telecom.html) and the [automobile industry](automotive.html).
+The project is funded by the [Swedish Foundation for Strategic Research](http://www.stratresearch.se/en/).
