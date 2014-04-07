@@ -4,15 +4,15 @@ title: Publications
 
 ## Resource Aware
 
-**An EDSL Approach to High Performance Haskell Programming**, Johan Ankner and Josef Svenningsson. _Haskell Symposium 2013_.
+**[An EDSL Approach to High Performance Haskell Programming](http://www.cse.chalmers.se/~josefs/publications/haskell2013.pdf)**, Johan Ankner and Josef Svenningsson. _Haskell Symposium 2013_.
 
-**Programming Future Parallel Architectures with Haskell and ArBB**, Bo Joel Svensson and Ryan Newton. _FASPP 2011_.
+**[Programming Future Parallel Architectures with Haskell and ArBB](https://www.cs.indiana.edu/~rrnewton/papers/faspp2011_haskell_arbb.pdf)**, Bo Joel Svensson and Ryan Newton. _FASPP 2011_.
 
-**Parallel Programming in Haskell Almost for Free**, Bo Joel Svensson and Mary Sheeran. _FHPC 2012_.
+**[Parallel Programming in Haskell Almost for Free](http://www.cse.chalmers.se/~joels/writing/almost_free.pdf)**, Bo Joel Svensson and Mary Sheeran. _FHPC 2012_.
 
-**Counting and Occurrence Sort for GPUs using an Embedded Language**, Josef Svenningsson, Bo Joel Svensson and Mary Sheeran. _FHPC 2013_.
+**[Counting and Occurrence Sort for GPUs using an Embedded Language](http://www.cse.chalmers.se/~joels/writing/csort.pdf)**, Josef Svenningsson, Bo Joel Svensson and Mary Sheeran. _FHPC 2013_.
 
-**Expressive Array Constructs in an Embedded GPU Kernel Programming Language**, Koen Claessen, Mary Sheeran, Bo Joel Svensson. _DAMP 2012_.
+**[Expressive Array Constructs in an Embedded GPU Kernel Programming Language](http://www.cse.chalmers.se/~joels/writing/expressive.pdf)**, Koen Claessen, Mary Sheeran, Bo Joel Svensson. _DAMP 2012_.
 
 ## Testing
 
