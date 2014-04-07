@@ -2,7 +2,7 @@
 title: Publications
 ---
 
-## Resource Aware
+## Resource Aware Programming
 
 **[An EDSL Approach to High Performance Haskell Programming](http://www.cse.chalmers.se/~josefs/publications/haskell2013.pdf)**, Johan Ankner and Josef Svenningsson. _Haskell Symposium 2013_.
 
