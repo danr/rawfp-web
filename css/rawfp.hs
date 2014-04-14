@@ -24,6 +24,9 @@ main = putCss $ do
             p <> li ? do
                 marginBottom (em 1.5)
 
-    ".jumbotron" ? do
+    ".jumbotron" ? h1 ? do
         "text-align" -: "center"
+
+    -- ".jumbotron" ? do
+    --    "text-align" -: "center"
 
