@@ -7,6 +7,11 @@ ICFP 2014 in Gothenburg
 
   The workshop on Functional High Performance Computing [FHPC](https://sites.google.com/site/fhpcworkshops/fhpc-2014) is particularily relevant to the RAW FP project.
 
+2014-04-25 - Michał Pałka successfully defended his PhD thesis
+  : [Random Structured Test Data Generation for Black-Box Testing](http://publications.lib.chalmers.se/publication/195849-random-structured-test-data-generation-for-black-box-testing)
+
+    Opponent: Prof. John Regehr, School of Computing, University of Utah, USA
+
 2014-03-31 - New PhD position in Functional Programming
   : We are recruiting a PhD student in Functional Programming.
     The focus of the position is on the problem of how to use Functional Programming to support hardware design and deterministic parallel programming.
